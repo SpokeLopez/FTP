@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+.custom-input-file {
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+	background-color:#06F;
+	width:40%;
+	margin:0 auto;
+	border-radius:0px 0px 6px 6px;
+}
+.custom-input-file .input-file {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-size: 10000px;
+    border: 10000px solid transparent;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    position: absolute;
+    right: -1000px;
+    top: -1000px;
+    cursor: pointer;
+}
+

@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* CSS Document */
+
+#perfil{
+	left:52%;
+	}
+#ancla{
+	left:59%;
+	text-decoration:none;
+	color:#FFF;
+	}
+#ancla .menu{
+	top:15%;
+	}
+#iinicio{
+	border:none;
+	}
+.botonMenu{
+	width:60px;
+	height:60px;
+	border-radius:40px;
+	background-color:#039;
+	border:4px solid #06F;
+	top:5%;
+	left:45%;
+	position:absolute;
+	text-align:center;
+	transform:none;
+	cursor:pointer;
+	border-style:dotted;
+	}
+.botonMenu:hover{
+	transition:all 0.2s;
+	-webkit-transform:scale(1.1,1.1);
+	
+	}
+.menu{
+	font-family:"Adobe Caslon Pro Bold";
+	font-size:14px;
+	color:#FFF;
+	top:30%;
+	position:relative;
+	cursor:pointer;
+	}
+body{
+	overflow:hidden;
+	background-color:#000;
+	/*background-image:url(../media/textura.jpg);*/
+	background-size:cover;
+	}
+
+iframe{
+	-webkit-transition:none;
+	width:100%;
+	height:80%;
+	position:absolute;
+	top:20%;
+	left:-1px;
+	/*border:solid 4px #000000;*/
+	/*overflow:hidden;*/
+	-webkit-transform:scale(0,0);
+	}
+#iinicio{
+	z-index:1;
+	}
+#iregistro{
+	z-index:2;
+	}
+
+
+/*LOGO*/
+#contenedorLogo{
+	width:25%;
+	height:18%;
+	/*border:2px solid #000;*/
+	position:absolute;
+	overflow:hidden;
+	left:10%;
+	top:1%;
+ 
+}
+
+#logo{
+	width:40%;
+	height:100%;
+	
+}
+
+#titulo{
+	width:100%;
+	height:100%;
+	z-index:3;
+	font-family:Andalus;
+	color:#03C;
+	font-size:24px;
+	font-weight:bold;
+}
+
+#title{
+	top:25%;
+	left:50%;
+	position:absolute;
+	text-align:center;
+}
+
+#title label{
+	color:#06F;
+}

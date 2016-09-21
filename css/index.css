@@ -1,0 +1,160 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color:#FFF;
+	background-image:url(../media/textura.jpg);
+	background-size:cover;
+	overflow:hidden;
+	}
+#recuperar{
+	text-align:center;
+	margin:15% auto;
+	width:40%;
+	height:60%;
+	}
+
+form{
+	font-family:Andalus;
+	font-size:16px;
+	font-weight:bold;
+	padding:3px;
+}
+form input{
+	border-radius:3px;
+	box-shadow:0px 0px 3px #0099FF;
+}
+
+/*form input:focus{
+	border:none;
+}*/
+
+#contenedorLogo{
+	width:25%;
+	height:18%;
+	/*border:2px solid #000;*/
+	position:absolute;
+	overflow:hidden;
+	left:10%;
+	top:2%;
+ 
+}
+
+#logo{
+	width:40%;
+	height:100%;
+	
+}
+
+#titulo{
+	width:100%;
+	height:100%;
+	z-index:3;
+	font-family:Andalus;
+	color:#03C;
+	font-size:24px;
+	font-weight:bold;
+}
+
+#title{
+	top:25%;
+	left:50%;
+	position:absolute;
+	text-align:center;
+}
+
+#title label{
+	color:#06F;
+}
+
+hr{
+	width:80%;
+	position:absolute;
+	top:20%;
+	left:10%;
+	background-image:-webkit-linear-gradient(top,#000,#06C);
+	opacity:0.4;
+}
+
+#promo{
+	width:40%;
+	height:50%;
+	top:35%;
+	left:10%;
+	position:absolute;
+}
+
+#login{
+	width:25%;
+	height:30%;
+	left:50%;
+	top:30%;
+	/*border:2px solid #000;*/
+	position:absolute;
+}
+
+input,select{
+	-webkit-box-shadow:inset 0 0 15px #000000;
+	box-shadow:inset 0 1px 8px #999;
+	border-radius:3px;
+	font-size:22px;
+	width:100%;
+	height:18%;
+	font-family:"Adobe Caslon Pro";
+	margin-top:4%;
+	border-radius:5px;
+}
+/*input[type="submit"]*/
+
+#loginf input[type="button"]{
+	margin-left:2%;
+}
+
+.button{
+	width:40%;
+	height:18%;
+	margin-left:60%;
+	padding-top:5px;
+	font-size:18px;
+	color:#FFF;
+	background-image:-webkit-linear-gradient(top,#03F,#09F);
+	border-radius:5px;
+	font-weight:bold;
+	outline:none;
+	border:none;
+	cursor:pointer;
+}
+	
+.button:hover{
+	background-image:-webkit-linear-gradient(top,#06F,#0CF);
+}
+
+input::-webkit-input-placeholder { 
+	color:#666;
+	opacity:0.8;
+}
+
+input:focus{
+	outline:none;
+	-webkit-box-shadow:inset 0 0 5px #000000;
+}
+
+form{
+	font-family:"Adobe Caslon Pro";
+}
+
+a{
+	text-decoration:none;
+	color:#06F;
+	font-size:16px;
+	opacity:0.6;
+	cursor:pointer;
+}
+
+h1{
+	color:#000;
+	margin-left:25%
+}
+
+.box h1{
+	margin:2% 30%;
+}

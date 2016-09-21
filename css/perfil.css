@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	overflow:hidden;
+	background-color:#FFF;
+	}
+#perfilContenedor{
+	height:100%;
+	width:20%;
+	/*border:solid 2px #000000;*/
+	background-color:#CCC;
+	position:absolute;
+	left:0%;
+	top:0%;
+	z-index:1;
+	text-align:center;
+	}
+#perfilContenedor img{
+	width:70%;
+	height:40%;
+	border:solid 6px #06F;
+	
+	}
+#archivos{
+	position:absolute;
+	left:20%;
+	overflow:hidden;
+	z-index:0;
+	}
+#perfilContenedor #upLoad{
+	cursor:pointer;
+	width:55%;
+	height:10%;
+	border:none;
+	margin-left:0%;
+	}
+table{
+	width:1100px;
+	border-collapse:collapse;
+	
+	}
+th,td{
+	text-align:center;
+	border-bottom:solid 1px #D7D7D7;
+	}
+
+.nombre{
+	width:55%;
+	text-align:left;
+	padding-left:10px;
+	
+	}
+.fila{
+	
+		background-color:#FFF;
+	}
+.filapar{
+	background-color:#EAEAEA;
+	}
+.download{
+	margin:0 auto;
+	width:30px;
+	height:30px;
+	border:none;
+	background-color:transparent;
+	background-image:url(../media/download.png);
+	background-size:cover;
+	cursor:pointer;
+	}
+.delete{
+	margin:0 auto;
+	width:30px;
+	height:30px;
+	border:none;
+	background-color:transparent;
+	background-image:url(../media/eliminar.png);
+	background-size:cover;
+	cursor:pointer;
+	}
+th{
+	background-color:#333;
+	color:#FFF;
+	}

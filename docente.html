@@ -1,0 +1,55 @@
+<!DOCTYPE>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8">
+<title>Menu Docente</title>
+<link rel="stylesheet" type="text/css" href="css/docente.css" />
+<script src="js/jquery-1.10.0.js"></script>
+<script>
+$(document).ready(function(){
+
+		$("#iinicio")
+		.css({
+			"-webkit-transition":"all 2s",
+			"-webkit-transform":"scale(1,1)"
+		})
+			
+		$(".botonMenu").click(function(){
+			$("iframe")
+			.css({
+			"-webkit-transition":"all 2s",
+			"-webkit-transform":"scale(0,0)"
+			})
+						
+			var a=$(this).attr("id")
+			$("#i"+a)
+			.css({
+			"-webkit-transition":"all 2s",
+			"-webkit-transform":"scale(1,1)"
+			})			
+			/*$('#'+x).jqrotate(45)*/
+		})
+		
+});
+
+</script>
+</head>
+
+<body>
+
+<div id="contenedorLogo">
+	<div id="titulo">
+		<img src="media/logo.png" id="logo"/><label id="title">Up&amp;DownLoad<br /><label>Files</label></label>
+	</div>
+</div>
+
+<div class="botonMenu" id="inicio"><label class="menu">Inicio</label></div>
+<div class="botonMenu" id="perfil"><label class="menu">Perfil</label></div>
+
+<iframe src="inicio.html" alt="inicio" id="iinicio"></iframe>
+<iframe src="perfil.php" alt="perfil" id="iperfil"></iframe>
+<a href="index.php" class="botonMenu" id="ancla"><label class="menu">Cerrar Sesion</label></a>
+
+
+</body>
+</html>
